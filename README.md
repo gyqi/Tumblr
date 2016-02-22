@@ -1,6 +1,6 @@
-# Tumblor
+# Tumblr
 
-README for Tumblor
+README for Tumblr
 
 Description:
 This is an iOS demo application that is for the week 4 assignment of Codepath iOS for designers.
