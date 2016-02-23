@@ -24,7 +24,7 @@ Optional
 
 ![Video Walkthrough](carousel_optional.gif?raw=true)
 
-Open-Source Library: none
+Open-Source Library: none.
 GIF created with LiceCap.
 
 
