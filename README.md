@@ -16,13 +16,10 @@ Completed user stories:
 * [x] Optional: Discover bubble should bob up and down unless the SearchViewController is tapped.
 * [x] Optional: Show the custom loading indicator by playing the sequence of pngs.
 
-Required
+Required + Optional
 
-![Video Walkthrough](carousel_required.gif?raw=true)
+![Video Walkthrough](tumblr.gif?raw=true)
 
-Optional
-
-![Video Walkthrough](carousel_optional.gif?raw=true)
 
 Open-Source Library: none.
 GIF created with LiceCap.
