@@ -133,7 +133,7 @@
         <!--Login View Controller-->
         <scene sceneID="iWo-1J-TeK">
             <objects>
-                <viewController id="CIc-Wd-HwW" userLabel="Login View Controller" customClass="LoginViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overCurrentContext" id="CIc-Wd-HwW" userLabel="Login View Controller" customClass="LoginViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="WUf-z2-lFz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -168,6 +168,9 @@
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.26274509800000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="loginView" destination="WUf-z2-lFz" id="t8r-Y2-PPL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zmR-SL-Waf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -204,7 +207,7 @@
         <!--Compose View Controller-->
         <scene sceneID="Xo2-xL-WUC">
             <objects>
-                <viewController storyboardIdentifier="composeViewController" id="IgL-6y-1nu" userLabel="Compose View Controller" customClass="ComposeViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="composeViewController" modalPresentationStyle="overCurrentContext" id="IgL-6y-1nu" userLabel="Compose View Controller" customClass="ComposeViewController" customModule="Tumblr" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="sIc-wE-NrN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,6 +262,7 @@
                     </view>
                     <connections>
                         <outlet property="chatButton" destination="1WJ-Pd-2qA" id="edm-Aw-k3X"/>
+                        <outlet property="composeView" destination="sIc-wE-NrN" id="huX-sa-4QP"/>
                         <outlet property="linkButton" destination="FLO-lR-XJl" id="REc-bB-XIZ"/>
                         <outlet property="photoButton" destination="07I-47-2wB" id="bzC-O4-fJT"/>
                         <outlet property="quoteButton" destination="c1w-sb-BIe" id="wyS-cp-UHQ"/>

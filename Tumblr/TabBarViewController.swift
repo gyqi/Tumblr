@@ -103,6 +103,7 @@ class TabBarViewController: UIViewController {
         
         // Tell the destinationViewController's  transitioning delegate to look in fadeTransition for transition instructions.
         destinationViewController.transitioningDelegate = fadeTransition
+
         
         // Adjust the transition duration. (seconds)
         fadeTransition.duration = 1.0

@@ -24,6 +24,9 @@ class ComposeViewController: UIViewController {
     var chatButtonOriginalPoint: CGPoint!
     var videoButtonOriginalPoint: CGPoint!
     
+    @IBOutlet var composeView: UIView!
+    
+    
     override func viewWillAppear(animated: Bool) {
         textButtonOriginalPoint = textButton.center
         photoButtonOriginalPoint = photoButton.center
@@ -43,7 +46,8 @@ class ComposeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+            composeView.backgroundColor = UIColor(red: 0.18, green: 0.27, blue: 0.36, alpha: 0.9)
         // Do any additional setup after loading the view.
     }
     
